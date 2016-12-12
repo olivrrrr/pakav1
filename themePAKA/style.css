@@ -1,6 +1,48 @@
 /*
 Theme Name: papakann
-Author : papakann
+Author: papakann
 Author URI: http://blog.xl185.de
-Version : 1.0
+Version: 1.0
 */
+body{
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+a:link,
+a:visited {
+    color: #006ec3
+}
+
+p{
+  line-height: 1.65em
+}
+
+/* Gernal Layout */
+div.container{
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+div.posts-main{
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.site-header {
+/*  border-bottom: 2px solid #999;
+  background-color: #006ec3*/
+  border-radius: 15px 50px;
+  background: #73AD21;
+  padding: 20px;
+  width: 80%;
+  height: 80px;
+  border-bottom: 2px dotted #999;
+}
+.site-footer {
+  border-top: 2px solid #999;
+}

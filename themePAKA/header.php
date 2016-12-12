@@ -1,5 +1,16 @@
-<html>
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
 <head>
-	<title></title>
+  <meta charset="<?php bloginfo('charset'); ?>">
+  <title>
+    <?php bloginfo('name'); ?> - Eine neue Generation von V&auml;tern
+  </title>
+  <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
+  <div class="container">
+      <!-- site-header -->
+      <header class="site-header">
+          <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+          <h5><?php bloginfo('description'); ?></h5>
+      </header>
