@@ -68,6 +68,7 @@ div.container{
 
 .site-nav{
 }
+
 /* SITE HEADER MENU */
 .site-header nav ul li{
     margin-left: 20px;
@@ -113,4 +114,7 @@ article.post {
 }
 article.post:last-of-type{
     border-bottom: none;
+}
+article.page h2 {
+  font-size: 180%;
 }
